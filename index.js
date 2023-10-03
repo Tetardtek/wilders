@@ -7,6 +7,7 @@ function randomValue(names)
 {
     return names[Math.floor(Math.random() * names.length)];
 }
+
 console.log(
     chalk.red(`Hello ${(randomValue(names))}`)
 );
